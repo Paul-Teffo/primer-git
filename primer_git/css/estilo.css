@@ -1,0 +1,325 @@
+body{
+	padding: 40px;
+}
+
+
+
+/*--------------------------estilos TITULO--------------------------*/
+#a{
+color: #EDA400;
+margin: none;
+}
+#b{
+	color: #22C2E8;
+	margin: none;
+}
+#c{
+	color: #DB018E;
+	margin: none;
+}
+ header p{
+	 margin: 0 0 20px 7% ;
+	 font-size: 10px;
+ }
+
+/* --------------------------------- menu--------------------------------- */ 
+.nav-a{
+	display: inline-block;
+	background: #DB008D;
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+.nav-a:hover{
+	background-color: #B10474;
+}
+nav{
+	background-color: #DB008D;
+	padding: 10px;
+	display: flex;
+
+}
+.nav-button{
+	background-color: #DB008D;
+	border: none;
+	padding: 10px;
+	display: none
+}
+/*--------------------------estilos info--------------------------*/
+
+.info{
+
+	float: left;
+  margin-top: 10px;
+  padding: 80px;
+
+
+	width: 65%;
+	height: 60%;
+	margin-right: 10px;
+  
+  
+}
+.info_columna {
+	width: 100%;
+	text-align: justify;
+	font-family: fantasy;
+	font-size: 18px;
+		
+}
+
+.info_columna h3{
+	margin: 25px 0 0 0;
+	color: #00B8E4;
+}
+.info_columna img{
+	margin: 10px 20px 0 0;
+	float: left;
+	width: 300px;
+	height: 150px;
+}
+/*--------------------------estilos aside--------------------------*/
+aside{
+	width: 34%;
+	height: 60%;
+	margin-top: 10px;
+	float: right;
+
+	padding: 80px;
+}
+
+aside h3{
+	color: #00B8E4;
+}
+
+.vertical-menu {
+	width: 100px; 
+
+}
+
+.vertical-menu a {
+  background-color: rgb(255, 255, 255); 
+  color:#00B9E5;
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.vertical-menu a.active {
+  background-color: #DB008D; 
+  color: white;
+}
+/*--------------------------estilos footer--------------------------*/
+footer{
+border-top: 10px;
+clear: both;
+color: white;
+font-family: 'Times New Roman';
+flex-flow: wrap;
+
+}
+div .izquierda{
+width: 50%;
+height: 200px;
+float: left;
+padding: 40px;
+
+background-color: #DB008D;
+
+}
+div .derecha{
+	width: 50%;
+	float: right;
+	height: 200px;
+	padding: 40px;	
+	background-color: #DB008D;
+	text-align: right;
+
+}
+footer ul{
+		clear: both;
+		flex: auto;
+		float: right;
+		width: 50%;
+		list-style: none;
+		margin: 10px 0 0 200px;
+
+		padding: 0;
+		
+	
+}
+
+footer ul li {
+	 float: left;
+}
+footer ul li a {
+  padding: .3em;
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  
+
+}
+footer .seunda{
+	background-color: aqua
+}
+div .centro{
+	background-color: #B10474;
+	text-align: center;
+
+	
+}
+/*--------------------------estilos responsivo--------------------------*/
+@media(max-width:680px){
+	body{
+		padding: 5px;
+	}
+	#a{
+		color: #EDA400;
+		margin: none;
+		}
+		#b{
+			color: #22C2E8;
+			margin: none;
+		}
+		#c{
+			color: #DB018E;
+			margin: none;
+		}
+		 header p{
+			 margin: 0 0 20px 7% ;
+			 font-size: 10px;
+		 }	
+
+	 /* -------------	 menu------------- */ 
+
+		nav{
+				flex-direction: column;
+				width: 100%;
+
+		}
+		.nav-button{
+			background-color: #DB008D;
+			border: none;
+			width: 100%;
+			display: inline-block;
+		}
+		.nav-a{
+			width: 100%;
+			margin: 10px 0;
+			text-align: center;
+		}
+		.bye{
+			display: none;
+		}
+/*--------------------------estilos info--------------------------*/
+.info{
+	border: none;
+	margin: 0%;
+	width: 100%;
+	
+  
+}
+.info_columna {
+	width: 100%;
+	text-align: justify;
+	font-family: fantasy;
+	font-size: 13px;
+		
+}
+
+.info_columna h3{
+	
+	color: #00B8E4;
+}
+.info_columna img{
+	
+	
+	width: 500px;
+	height: 250px;
+}
+/*--------------------------estilos aside--------------------------*/
+aside{
+	width: 100%;
+	
+	margin: 0%
+}
+aside h3{
+	color: #00B8E4;
+}
+
+.vertical-menu {
+	width: 100px; 
+
+}
+
+.vertical-menu a {
+  background-color: rgb(255, 255, 255); 
+  color:#00B9E5;
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.vertical-menu a.active {
+  background-color: #DB008D; 
+  color: white;
+}
+
+/*--------------------------estilos footer--------------------------*/
+footer{
+	border: 0%;
+
+	}
+	div .izquierda{
+	width: 100%;
+	text-align: center;
+	background-color: #DB008D;
+	
+	}
+	div .derecha{
+		width: 100%;
+		background-color: #DB008D;
+		text-align: center;
+	
+	}
+	footer ul{
+			clear: both;
+			flex: auto;
+
+			width: 80%;
+			list-style: none;
+			float: inline-end;
+
+			
+		
+	}
+	
+	footer ul li {
+		 float: left;
+	}
+	footer ul li a {
+		padding: .5em;
+		display: inline-block;
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+	
+	}
+	footer .seunda{
+		background-color: aqua
+	}
+	div .centro{
+		background-color: #B10474;
+		text-align: center;
+	
+		
+	}
+}

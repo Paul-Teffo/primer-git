@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diseño</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos CSS personalizados -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+    <header>
+        <h1><strong id="a">BLOG</strong><strong id="b">DE</strong><strong id="c">VIAJES</strong>        </h1>   
+        <p>TU COMPAÑERO PARA TU PROXIMO VIAJE</p>
+    </header>
+   
+    <nav >
+            <button class="nav-button" onclick="accion()">....</button>
+            <a href="#" class="nav-a bye">Inicio</a>
+            <a href="#" class="nav-a bye">Nosotros</a>
+            <a href="#" class="nav-a bye">Blog</a>
+            <a href="#" class="nav-a bye">Tienda</a>
+            <a href="#" class="nav-a bye">Contacto</a>
+            
+        
+    </nav>
+
+    <section class="info">
+            <article class="info_columna">
+                <h3 class="info_titulo"><strong> Viajar a Londres</strong></h3>
+                <img src="./img/londres.jpg" clase="info_img">
+                <p class="info_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque asperiores maiores, impedit cum, tempora nesciunt ut esse doloribus similique ea, dolores nobis. Porro a ut officia fugit dolorem placeat.
+                </br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore quae suscipit quo sequi illum, temporibus provident impedit eum corrupti. Asperiores culpa fuga minus nemo hic molestias unde aperiam ipsa?
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer más</button>
+            </article>
+             
+            <article class="info_columna">
+                <h3 class="info_titulo"><strong> Puente de la Torre</strong></h3>
+                <img src="./img/puente.jpg" clase="info_img">
+                <p class="info_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque asperiores maiores, impedit cum, tempora nesciunt ut esse doloribus similique ea, dolores nobis. Porro a ut officia fugit dolorem placeat.
+                </br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore quae suscipit quo sequi illum, temporibus provident impedit eum corrupti. Asperiores culpa fuga minus nemo hic molestias unde aperiam ipsa?
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer más</button>
+            </article>
+            
+            <article class="info_columna">
+                <h3 class="info_titulo"><strong> Metro de Londres</strong></h3>
+                <img src="./img/metro.jpeg" clase="info_img">
+                <p class="info_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque asperiores maiores, impedit cum, tempora nesciunt ut esse doloribus similique ea, dolores nobis. Porro a ut officia fugit dolorem placeat.
+                </br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore quae suscipit quo sequi illum, temporibus provident impedit eum corrupti. Asperiores culpa fuga minus nemo hic molestias unde aperiam ipsa?
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Leer más</button>
+            </article>
+    </section>
+    <aside>
+            <h3>Otros Post</h3>
+            <div class="vertical-menu">                    
+                    <a href="#">Entrada 1</a>
+                    <a href="#">Entrada 2</a>
+                    <a href="#">Entrada 3</a>
+                    <a href="#">Entrada 4</a>                   
+            </div> 
+    </aside>
+
+<footer >       
+        <div class="izquierda">
+          <h3>Sobre Nosotros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ex optio, obcaecati unde nostrum voluptates atque. Est exercitationem, iusto voluptatibus eaque officiis quae, asperiores odit dignissimos eveniet doloremque necessitatibus cupiditate?</p>  
+        </div>
+
+        <div class="derecha">
+                <h3>Menú de Navegación</h3>
+                <ul>
+                        <li><a href="#" >Inicio</a></li>
+                        <li><a href="#" >Nosotros</a></li>
+                        <li><a href="#" >Blog</a></li>
+                        <li><a href="#" >Tienda</a></li>
+                        <li><a href="#" >Contacto</a></li>
+                        
+                </ul>
+        </div>
+        <div class="centro">
+                <p>Blog de Viajes todos los derechos reservados</p>
+        </div>
+</footer>
+  
+   <script>
+        function accion(){
+            var menuu = document.getElementsByClassName('nav-a');
+            for(var i= 0; i < menuu.length; i++){
+                menuu[i].classList.toggle('bye');
+            }
+        }
+    </script>
+</body>
+</html>
